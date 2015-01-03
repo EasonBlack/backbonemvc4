@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackboneMvc", "BackboneMvc\BackboneMvc.csproj", "{827E2112-D0E6-471A-A467-CF0A19461C3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackboneMvc", "BackboneMvc.csproj", "{827E2112-D0E6-471A-A467-CF0A19461C3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
