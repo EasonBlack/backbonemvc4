@@ -1,0 +1,8 @@
+{
+    "name": "backbonemvc4",
+    "version": "0.0.1",
+    "ignore": [
+        "packages",
+        "bower.json"
+    ]
+}
