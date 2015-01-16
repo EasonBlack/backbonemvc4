@@ -8,15 +8,16 @@ define(function (require) {
 
     initialize: function (opts) {
         this.route(opts.prefix + 'index', 'index');
-        this.route(opts.prefix + 'main', 'main');
+        this.route(opts.prefix + 'main?:resource', 'main');
     },
 
     index: function () {
       new IndexView();
     },
-    
-    main: function () {
-      new MainView();
+
+    main: function (resource) {
+
+        new MainView(resource);
     }
   });
 

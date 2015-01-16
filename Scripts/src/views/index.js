@@ -6,11 +6,16 @@
         el: '#container',
 
         events: {
-
+           'click #btn': 'getMain'
         },
 
         initialize: function () {
             this.render();
+        },
+
+        getMain: function () {
+            Backbone.history.fragment = null;
+            Backbone.history.navigate(window.prefix + "main?a", { trigger: true });
         },
 
         render: function (title) {

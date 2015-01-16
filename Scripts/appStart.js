@@ -13,9 +13,8 @@ define(function (require) {
 
     var roots = window.location.pathname.substring(1).split('/');
     var prefix = roots[0] + '/';
-    
-    var router = new Router({prefix: prefix});
-
+    window.prefix = prefix;
+    var router = new Router({ prefix: prefix });
     Backbone.history.start({ pushState: true });
 
 });
